@@ -13,7 +13,7 @@ import java.util.List;
 import com.example.happyheels.model.*;
 import org.springframework.web.multipart.MultipartFile;
 
-@CrossOrigin
+@CrossOrigin(origins = "https://frontend5-ten.vercel.app")
 @RestController
 @RequestMapping("/api")
 public class ProductController {
