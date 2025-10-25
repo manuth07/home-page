@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ✅ Allow .gitkeep files (so empty folders can be committed)
+!.gitkeep
